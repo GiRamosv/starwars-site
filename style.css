@@ -1209,9 +1209,10 @@ body {
 }
 
 /* Rodapé Inferior (Copyright) */
+/* Rodapé Inferior (Copyright) */
 .footer-bottom {
   text-align: center;
-  margin-left: 320px; /* CORRIGIDO: Removido os 300px que quebravam o alinhamento */
+  margin-left: 0; /* CORRIGIDO DE VERDADE: Agora está zero! */
   margin-top: 50px;
   padding-top: 20px;
   border-top: 1px solid rgba(143, 156, 166, 0.05);
