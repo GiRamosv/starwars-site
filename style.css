@@ -791,37 +791,38 @@ body {
 /* BLUE */
 .character-card:has(.blue):hover {
   border-color: rgba(0, 170, 255, 0.35);
-
+  border-width: 3px;
   box-shadow:
-    0 0 30px rgba(0, 170, 255, 0.15),
-    0 0 50px rgba(0, 170, 255, 0.08);
+    0 20px 80px rgba(0, 170, 255, 0.15),
+    0 0 100px rgba(0, 170, 255, 0.08);
 }
 
 /* RED */
 .character-card:has(.red):hover {
   border-color: rgba(255, 0, 0, 0.35);
-
+  border-width: 3px;
   box-shadow:
-    0 0 30px rgba(255, 0, 0, 0.15),
-    0 0 50px rgba(255, 0, 0, 0.08);
+    0 20px 80px rgba(255, 0, 0, 0.15),
+    0 0 100px rgba(255, 0, 0, 0.08);
 }
 
 /* GREEN */
 .character-card:has(.green):hover {
   border-color: rgba(0, 255, 100, 0.35);
+  border-width: 3px;
 
   box-shadow:
-    0 0 30px rgba(0, 255, 100, 0.15),
-    0 0 50px rgba(0, 255, 100, 0.08);
+    0 20px 80px rgba(0, 255, 100, 0.15),
+    0 0 100px rgba(0, 255, 100, 0.08);
 }
 
 /* GOLD */
 .character-card:has(.gold):hover {
   border-color: rgba(255, 232, 31, 0.35);
-
+  border-width: 3px;
   box-shadow:
-    0 0 30px rgba(255, 232, 31, 0.15),
-    0 0 50px rgba(255, 232, 31, 0.08);
+    0 20px 80px rgba(255, 232, 31, 0.15),
+    0 0 100px rgba(255, 232, 31, 0.08);
 }
 
 .character-card h3 {
