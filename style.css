@@ -1059,6 +1059,101 @@ body {
     padding: 40px 25px;
   }
 }
+/* =========================
+   RESENHAS
+========================= */
+.reviews-section {
+  width: min(1250px, calc(100% - 30px));
+  margin: 120px auto;
+}
+
+.reviews-layout {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+.review-form-card,
+.review-card {
+  padding: 30px;
+  border-radius: 25px;
+  backdrop-filter: blur(10px);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.04),
+    rgba(255, 255, 255, 0.02)
+  );
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.review-form-card h3,
+.review-card h3 {
+  font-family: "Orbitron", sans-serif;
+  margin-bottom: 15px;
+}
+
+.review-form-card p,
+.review-card p {
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.7;
+}
+
+.review-form {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.review-form input,
+.review-form textarea {
+  width: 100%;
+  border: 1px solid rgba(255, 232, 31, 0.15);
+  background: rgba(0, 0, 0, 0.35);
+  color: #fff;
+  border-radius: 16px;
+  padding: 14px 16px;
+  font-family: "Rajdhani", sans-serif;
+  outline: none;
+  transition: 0.3s;
+}
+
+.review-form textarea {
+  min-height: 160px;
+  resize: vertical;
+}
+
+.review-form input:focus,
+.review-form textarea:focus {
+  border-color: rgba(255, 232, 31, 0.55);
+  box-shadow: 0 0 0 3px rgba(255, 232, 31, 0.08);
+}
+
+.review-form button {
+  border: none;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.reviews-list {
+  display: grid;
+  gap: 20px;
+}
+
+.review-tag {
+  display: inline-block;
+  margin-bottom: 15px;
+  color: var(--gold);
+  letter-spacing: 3px;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 900px) {
+  .reviews-layout {
+    grid-template-columns: 1fr;
+  }
+}
 
 /* ===================================================
    FOOTER COMPLETO (DE PONTA A PONTA NA TELA)
